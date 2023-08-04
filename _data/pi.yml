@@ -1,21 +1,22 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+- name: Dr. Preetha Chatterjee
+  photo: headshot.png
+  lab: soar.jpeg
+  info: Assistant Professor, Drexel University
+  email: preetha.chatterjee@drexel.edu
+  github: https://github.com/preethac
+  researchgate: https://www.researchgate.net/profile/Preetha-Chatterjee
+  scholar: https://scholar.google.com/citations?user=5i170moAAAAJ&hl=en
+  cv: cv/CV_PC_Official.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  education1: "(2021) Ph.D. in Computer Science, University of Delaware"
+  education2: "(2016) M.S. in Computer Science, University of Delaware"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
+  # education1short: (1942) Ph.D. Physics, Princeton
+  # education2short: (1939) B.S. Physics, MIT
   # education3short: 
   # education4short: 
   # education5short: 

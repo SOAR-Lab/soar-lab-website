@@ -1,9 +1,17 @@
-- name: Example student name
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
+- name: Amirali Sajadi
+  photo: amiralis.jpeg
+  info: Ph.D. Student, Drexel University
+  background: Amirali Sajadi has a Bachelor of Science in Computer Engineering and started his PhD studies in Fall 2022 at Drexel University. Amirali's main research interests are in software engineering and the use of machine learning and NLP to better understand and improve the software development process.
   email: exampleemail@gmail.com
   website: https://website.com
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+- name: Ramtin Ehsani
+  photo: ramtine.jpg
+  info: Ph.D. Student, Drexel University
+  background: Ramtin Ehsani received his Bachelor of Science from IUST majoring in Computer Engineering. His research interests lie in the intersection of software engineering, machine learning, and NLP. He joined the SOAR lab in the Winter of 2023 at Drexel to start his Ph.D. studies.
+  email: exampleemail@gmail.com
+  website: https://website.com
+
+# - name: "This could be you !"
+#   photo: rock.jpg
+#   info: See <a href="www">openings</a> for more info
