@@ -1,5 +1,6 @@
-# A website template for academics
+## Build
 
+<<<<<<< HEAD
 ## Users
 
 Some users:
@@ -58,6 +59,8 @@ Broadly speaking, there are three steps:
 ## Fork and build
 
 * Fork [this repository](https://github.com/sbryngelson/sbryngelson.github.io) by clicking the `fork` button in the top-right corner of its Github page.
+=======
+>>>>>>> 250c9a9830dd76b2ed67c850c371116991847bd4
 * Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
     * On MacOS, you will need to upgrade your Ruby version from the depricated v2.3 that is shipped. Follow the above Jekyll instructions closely.
 * Run `$ bundle exec jekyll serve` in the repository root directory
@@ -127,44 +130,6 @@ Instructions on how to do this are available on their page.
 They generally involve creating a repository on your Github titled `your_github_username.github.io` and uploading your files there (everything excepted the `_site/` directory, which the Github Pages service will generate using its own version of Jekyll).
 Then, Github will automatically rebuild your site every time you push a commit to the repository (no bundle/jekyll commands required).
 
-### Custom domain names
-
-You can use a standard domain service (e.g. [GoDaddy](https://www.godaddy.com/)) to purchase a domain name.
-Then, using the `CNAME` file and modifying the DNS settings of the domain service, you can direct your custom domain to the Github Pages-generated site.
-Detailed instructions for doing this for GoDaddy domains are available [here](https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b), though analogous instructions apply to other services.
-
-### Hosting elsewhere
-
-If you already have a hosting service for a static HTML webpage, such as some universities provide, you can build your website locally using `bundle exec jekyll serve`.
-Then, upload the resulting files located in the `_site/` directory via SSH or FTP to this server.
-Be sure that the `site.url` and `site.baseurl` are set appropriately in the `_config.yml` file.
-
-## Alternatives
-
-### Static website generators
-
-A list of static webpage generators is available [here](https://www.staticgen.com/).
-For academic purposes, I believe most people use [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/).
-I am mostly unaware of their relative merits.
-However, both are relatively easy to use and offer many templates to base your ideas off of.
-This, in combination with their large user bases, make them particularly attractive.
-This site is built with Jekyll.
-
-### Templates
-
-Other Jekyll templates are of course available.
-Some of these are viable for very simple academic pages with little tuning:
-* [Minimal mistakes](https://mmistakes.github.io/minimal-mistakes/)
-* [al-folio](https://github.com/alshedivat/al-folio)
-* [academicpages](https://academicpages.github.io/)
-
-However, they do not natively include many of the features I list at the top.
-For this reason, I decided to construct my own.
-
-## Acknowledgment
-
-I credit the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
-Many parts of this site were adopted or copied from their laboratory webpage.
 
 ## License
 
