@@ -2,7 +2,7 @@
 title: "Talks"
 layout: gridlay
 sitemap: false
-permalink: /talks/
+# permalink: /talks/
 ---
 
 <style>

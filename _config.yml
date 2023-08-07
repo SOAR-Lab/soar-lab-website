@@ -18,21 +18,21 @@ affiliation: >
 
 location: >
   Drexel University<br/>
-  Market Street, Philadelphia, PA<br/>
-  PA
+  3141 Chestnut St<br/>
+  Philadelphia, PA
 
 contact: >
     <a href="mailto:preetha.chatterjee@drexel.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact us via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
-  - name: about
+  # - name: about
   - name: publications
-  - name: talks
+  # - name: talks
   - name: research
-  - name: software
+  # - name: software
   - name: team
-  - name: teaching
+  # - name: teaching
 
 include:
   - .htaccess

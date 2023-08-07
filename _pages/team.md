@@ -5,9 +5,9 @@ sitemap: false
 permalink: /team/
 ---
 
-## Team
-
- **We are  looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+# Team
+<big>Meet the members!</big>
+ <!-- **We are  looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 ## PI
 
