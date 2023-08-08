@@ -1,0 +1,29 @@
+- name: Kostadin Damevski
+  photo: damevski.jpg
+  # duration: In the lab 2015-18
+  background: Associate Professor at the Computer Science Department at Virginia Commonwealth University
+  # email: vm557@drexel.edu
+  # linkedin: http://www.linkedin.com/in/vanessa-martinez-5b9527265
+  website: https://damevski.github.io/
+
+- name: Shadi Rezapour
+  photo: shadi.jpg
+  # duration: In the lab 2015-18
+  background: Assistant Professor in the Department of Information Science at Drexel's College of Computing and Informatics
+  # email: yashasvi.jain@drexel.edu
+  # linkedin: https://www.linkedin.com/in/yashasvi-jain/
+  website: https://www.shadirezapour.com/
+
+
+- name: Olga Baysal
+  photo: olgab.jpg
+  background: Associate Professor and a Graduate Director (Admission and Recruitment) at the School of Computer Science, Carleton University
+  # duration: In the lab 2015-18
+  website: http://olgabaysal.com/
+
+
+- name: Yuanfang Cai
+  photo: Yuanfang.jpg
+  background: Professor of Computer Science at Drexel University
+  # duration: In the lab 2015-18
+  website: https://www.cs.drexel.edu/~yfcai/
