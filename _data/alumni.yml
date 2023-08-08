@@ -1,5 +1,21 @@
-- name: Example Alumni Name
-  photo: rock.jpg
+- name: Vanessa Martinez
+  photo: vanessam.jpeg
   duration: In the lab 2015-18
-  info: Now at Univeristy of X
-  email: exampleemail@gmail.com
+  background: Vanessa Martinez is a Computer Science major with a Computer Engineering minor at Drexel University. She received her A.S. in Computer Science while in high school at Mercer County Community College. Her research interests are in software engineering, artificial intelligence, and human-computer interaction.
+  email: vm557@drexel.edu
+  linkedin: http://www.linkedin.com/in/vanessa-martinez-5b9527265
+
+- name: Yashasvi Jain
+  photo: yashasvij.jpeg
+  duration: In the lab 2015-18
+  background: Yashasvi is a Computer Science major and a Neuroscience minor at Drexel University. He believes that brain-machine interfaces are the next hot topics in technology, and he wishes to pursue that. Yashasvi feels strongly about digital privacy, decentralization, and true digital ownership of intellectual property. He is interested in exploring blockchain, cryptography, machine learning.
+  email: yashasvi.jain@drexel.edu
+  linkedin: https://www.linkedin.com/in/yashasvi-jain/
+  website: https://yashasvi-jain.github.io/index.html
+
+
+- name: Thomas Do
+  photo: thomasd.jpeg
+  background:
+  duration: In the lab 2015-18
+  linkedin: https://www.linkedin.com/in/thomas-do-b471aa1b8/
