@@ -7,4 +7,3 @@ gem "sassc", ">2.0.1"
 gem "kramdown-parser-gfm"
 gem 'jekyll-scholar'
 gem "webrick", "~> 1.7"
-gem "github-pages", "~> 228", group: :jekyll_plugins
