@@ -3,7 +3,7 @@ title: SOAR Lab
 email: preetha.chatterjee@drexel.edu
 description: Academic webpage of SOAR lab
 baseurl: ""
-url: ""
+url: "https://soar-lab.github.io/"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
