@@ -87,7 +87,7 @@ scholar:
     reversed: "reversed"
 
 exclude:
-  # - Gemfile
+  - Gemfile
   - Gemfile.lock
   - update_boostrap.sh
   - switch_theme.sh
