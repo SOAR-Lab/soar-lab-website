@@ -18,11 +18,13 @@ affiliation: >
 
 location: >
   Drexel University<br/>
-  3141 Chestnut St<br/>
+  3675 Market St 10th floor<br/>
   Philadelphia, PA
 
 contact: >
-    <a href="mailto:preetha.chatterjee@drexel.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact us via email</a> <br/>
+    <a href="https://twitter.com/soar_lab" target="_blank"><i class="fa fa-twitter fa-2x"></i> Twitter</a> <br/>
+    <a href="https://github.com/SOAR-Lab" target="_blank"><i class="fa fa-github-square fa-2x"></i> GitHub</a> <br/>
+
 
 # Pages shown in navbar
 nav_pages:

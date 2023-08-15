@@ -28,6 +28,51 @@ iframe {
   display: inline;
   vertical-align: middle;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 100%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 4px;
+  margin-bottom: 4px
+
+}
 </style>
 
 ## Research
@@ -53,4 +98,19 @@ Large corpora of software-related artifacts (e.g., blogs, bug reports, emails) o
 <h4>**Mining Source Code Descriptions from Research Articles**</h4>
 Digital libraries of computer science research articles can be a rich source for code examples that are used to motivate or explain particular concepts or issues. In this project, we designed a technique to automatically identify natural language descriptions of code segments embedded within articles. Extracting these natural language descriptions alongside code could enable new advances in areas including code-based search, automatic code comment generation, and documentation generation.
 </div>
+</div>
+
+## Collaborators
+
+<div class="row">
+{% for member in site.data.collaborators %}
+<div class="column">
+<div class="card">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" style="width:auto; max-height:120px"/>
+<h5><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+</div>
+
+</div>
+{% endfor %}
+
 </div>
