@@ -7,7 +7,7 @@
   website: Dr. Preetha Chatterjee
   researchgate: https://www.researchgate.net/profile/Preetha-Chatterjee
   scholar: https://scholar.google.com/citations?user=5i170moAAAAJ&hl=en
-  cv: cv/CV_PC_Official.pdf
+  # cv: cv/CV_PC_Official.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
   education1: "(2021) Ph.D. in Computer Science, University of Delaware"
