@@ -1,3 +1,11 @@
+## Update Papers and Members
+- Put the PDF file inside the *papers* folder.
+- Create a new item in the *ref.bib* file under the *assets* folder and add the relevant information to the item.
+
+The paper will be added to the list of papers in the publications page.
+
+To update the information about the team members or collaborators, simply edit the corresponding files under the *data* folder.
+
 ## Build
 
 * Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
