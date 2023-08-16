@@ -94,6 +94,7 @@ permalink: /team/
 </div>
 <div class="col-sm-9 col-xs-12">
   <h4>{{ member.name }}</h4>
+  <h4>{{ member.info }}</h4>
   <i style="min-height:250px">{{ member.background }}<br></i>
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
