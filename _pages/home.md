@@ -9,16 +9,7 @@ permalink: /
 
 Welcome to the SOAR (Software Engineering and Analytics Research) Lab. SOAR Lab is a software engineering research group in the Department of Computer Science at Drexel University led by [Dr. Preetha Chatterjee](https://preethac.github.io/). At SOAR, our focus is on improving software engineers’ tools and environments through empirical data analysis, natural language processing and machine learning.
 
-<!-- <div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-<!-- Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949) -->
-</center>
-</div>
-</div>
-<br/> -->
+
 
 ### About PI
 
