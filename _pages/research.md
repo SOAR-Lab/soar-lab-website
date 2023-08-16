@@ -82,7 +82,7 @@ body {
 <h4>**Mining Emotions from Software Engineering Communication**</h4>
 Emotions can strongly impact activities that are collaborative in nature and require creativity and problem-solving skills, such as software development. Research has shown that positive emotions (e.g., Joy) are associated with increased productivity and job satisfaction in software engineering teams. On the other hand, negative emotions (e.g., Frustration) can cause developers to lose motivation and exhibit lower participation, ultimately leading to team attrition. In this project, we aim to mine emotions and affect in software related text towards improving collaboration and productivity in software projects.
 <br>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/toxicity.pdf" target="_blank"><button class="btn btn-success btm-sm">FSE2023 #1</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/emotions.pdf" target="_blank"><button class="btn btn-success btm-sm">FSE2023 #2</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/trust.pdf" target="_blank"><button class="btn btn-success btm-sm">NIER23</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/Data Augmentation.pdf" target="_blank"><button class="btn btn-success btm-sm">ASE22</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/toxicity.pdf" target="_blank"><button class="btn btn-success btm-sm">FSE23 #1</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/emotions.pdf" target="_blank"><button class="btn btn-success btm-sm">FSE23 #2</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/trust.pdf" target="_blank"><button class="btn btn-success btm-sm">ICSE23</button></a> <a href="{{ site.url }}{{ site.baseurl }}/papers/Data Augmentation.pdf" target="_blank"><button class="btn btn-success btm-sm">ASE22</button></a>
 <br><br>
 
 <h4>**Mining Information from Developer Chat Conversations Towards Building Software Maintenance Tools**</h4>
@@ -100,13 +100,13 @@ Although popular Q&A forums such as Stack Overflow serve as a good knowledge res
 <h4>**Learning about Code Snippet Characteristics in Software Artifacts**</h4>
 Large corpora of software-related artifacts (e.g., blogs, bug reports, emails) offer the unique opportunity to learn from developers’ discussion about code snippets. The goal of this project is to gain insight into the potential value and difficulty of mining the natural language text associated with the code snippets found in a variety of software-related documents, including blog posts, API documentation, code reviews, and public chats.
 <br>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/What Information.pdf" target="_blank"><button class="btn btn-success btm-sm">SANER17</button></a> 
+<a href="{{ site.url }}{{ site.baseurl }}/papers/What Information.pdf" target="_blank"><button class="btn btn-success btm-sm">SANER17</button></a>
 <br><br>
 
 <h4>**Mining Source Code Descriptions from Research Articles**</h4>
 Digital libraries of computer science research articles can be a rich source for code examples that are used to motivate or explain particular concepts or issues. In this project, we designed a technique to automatically identify natural language descriptions of code segments embedded within articles. Extracting these natural language descriptions alongside code could enable new advances in areas including code-based search, automatic code comment generation, and documentation generation.
 <br>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/Extracting Code Segments.pdf" target="_blank"><button class="btn btn-success btm-sm">MSR17</button></a> 
+<a href="{{ site.url }}{{ site.baseurl }}/papers/Extracting Code Segments.pdf" target="_blank"><button class="btn btn-success btm-sm">MSR17</button></a>
 </div>
 </div>
 
