@@ -7,8 +7,10 @@ permalink: /
 
 ### Welcome!
 
-Welcome to the SOAR (Software Engineering and Analytics Research) Lab. SOAR Lab is a software engineering research group in the Department of Computer Science at Drexel University led by [Dr. Preetha Chatterjee](https://preethac.github.io/). At SOAR, our focus is on improving software engineers’ tools and environments through empirical data analysis, natural language processing and machine learning.
+  <img src="../images/group_photo.jpeg"  style="width:100%; max-height:auto"/>
+  <p style="text-align: center; color: rgba(0, 0, 0, 0.5); margin-top: -10px;">Group Photo - FSE Conference 2024</p>
 
+Welcome to the SOAR (Software Engineering and Analytics Research) Lab. SOAR Lab is a software engineering research group in the Department of Computer Science at Drexel University led by [Dr. Preetha Chatterjee](https://preethac.github.io/). At SOAR, our focus is on improving software engineers’ tools and environments through empirical data analysis, natural language processing and machine learning.
 
 
 ### About PI
