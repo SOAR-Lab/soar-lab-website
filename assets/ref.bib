@@ -1,3 +1,30 @@
+@inproceedings{ehsani2024incivility,
+    author = {Ramtin Ehsani, Mia Mohammad Imran, Robert Zita, Kostadin Damevski, and Preetha Chatterjee},
+    year = {2024},
+    title = {Incivility in Open Source Projects: A Comprehensive Annotated Dataset of Locked GitHub Issue Threads},
+    journal = {The 21st International Conference on Mining Software Repositories (MSR), Data Showcase Track},
+    file = {incivility.pdf},
+    abstract = {In the dynamic landscape of open source software (OSS) development, understanding and addressing incivility within issue discussions is crucial for fostering healthy and productive collaborations. This paper presents a curated dataset of 404 locked GitHub issue discussion threads and 5961 individual comments, collected from 213 OSS projects. We annotated the comments with various categories of incivility using Tone Bearing Discussion Features (TBDFs), and, for each issue thread, we annotated the triggers, targets, and consequences of incivility. We observed that Bitter frustration, Impatience, and Mocking are the most prevalent TBDFs exhibited in our dataset. The most common triggers, targets, and consequences of incivility include Failed use of tool/code or error messages, People, and Discontinued further discussion, respectively. This dataset can serve as a valuable resource for analyzing incivility in OSS and improving automated tools to detect and mitigate such behavior.},
+}
+
+@inproceedings{shyamal2024exploring,
+    author = {Shyamal Mishra, and Preetha Chatterjee},
+    year = {2024},
+    title = {Exploring ChatGPT for Toxicity Detection in GitHub},
+    journal = {The 46th International Conference on Software Engineering (ICSE), New Ideas and Emerging Results Track},
+    file = {exploring_toxicity.pdf},
+    abstract = {Fostering a collaborative and inclusive environment is crucial for  the sustained progress of open source development. However, the  prevalence of negative discourse, often manifested as toxic comments, poses signi!cant challenges to developer well-being and  productivity. To identify such negativity in project communications, especially within large projects, automated toxicity detection  models are necessary. To train these models e"ectively, we need  large software engineering-speci!c toxicity datasets. However, such  datasets are limited in availability and often exhibit imbalance (e.g.,  only 6 in 1000 GitHub issues are toxic) [1], posing challenges for  training e"ective toxicity detection models. To address this problem,  we explore a zero-shot LLM (ChatGPT) that is pre-trained on massive datasets but without being !ne-tuned speci!cally for the task  of detecting toxicity in software-related text. Our preliminary evaluation indicates that ChatGPT shows promise in detecting toxicity  in GitHub, and warrants further investigation. We experimented  with various prompts, including those designed for justifying model  outputs, thereby enhancing model interpretability and paving the  way for potential integration of ChatGPT-enabled toxicity detection  into developer communication channels.},
+}
+
+@inproceedings{imran2024shedding,
+    author = {Mia Mohammad Imran, Preetha Chatterjee, and Kostadin Damevski},
+    year = {2024},
+    title = {Shedding Light on Software Engineering-specific Metaphors and Idioms},
+    journal = {The 46th International Conference on Software Engineering (ICSE), Research Track},
+    file = {shedding_light.pdf},
+    abstract = {Use of figurative language, such as metaphors and idioms, is common in our daily-life communications, and it can also be found in  Software Engineering (SE) channels, such as comments on GitHub.  Automatically interpreting figurative language is a challenging task,  even with modern Large Language Models (LLMs), as it often involves subtle nuances. This is particularly true in the SE domain,  where figurative language is frequently used to convey technical  concepts, often bearing developer affect (e.g., ‘spaghetti code’). Surprisingly, there is a lack of studies on how figurative language in SE  communications impacts the performance of automatic tools that  focus on understanding developer communications, e.g., bug prioritization, incivility detection. Furthermore, it is an open question to  what extent state-of-the-art LLMs interpret figurative expressions  in domain-specific communication such as software engineering. To  address this gap, we study the prevalence and impact of figurative  language in SE communication channels. This study contributes  to understanding the role of figurative language in SE, the potential of LLMs in interpreting them, and its impact on automated SE  communication analysis. Our results demonstrate the effectiveness  of fine-tuning LLMs with figurative language in SE and its potential impact on automated tasks that involve affect. We found that,  among three state-of-the-art LLMs, the best improved fine-tuned  versions have an average improvement of 6.66% on a GitHub emotion classification dataset, 7.07% on a GitHub incivility classification  dataset, and 3.71% on a Bugzilla bug report prioritization dataset.},
+}
+
 @inproceedings{bouzoubaa2023evolution,
     author = {Layla Bouzoubaa, Ramtin Ehsani, Preetha Chatterjee, and Rezvaneh Rezapour},
     year = {2023},
