@@ -118,7 +118,7 @@ body {
 {% endif %}
 
 <div class="col-sm-3">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}"  style="width:auto; max-height:150px"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}"  style="width: 155px; height:150px"/>
 </div>
 <div class="col-sm-9 col-xs-12">
   <h4>{{ member.name }}</h4>
@@ -127,9 +127,9 @@ body {
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
   <!-- {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %} -->
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
 </div>
 <!-- </div> -->
 
