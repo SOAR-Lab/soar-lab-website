@@ -1,14 +1,14 @@
 @inproceedings{ehsani2024incivility,
-    author = {Ramtin Ehsani, Mia Mohammad Imran, Robert Zita, Kostadin Damevski, and Preetha Chatterjee},
+    author = {Ramtin Ehsani, Mia Mohammad Imran and Robert Zita and Kostadin Damevski and Preetha Chatterjee},
     year = {2024},
     title = {Incivility in Open Source Projects: A Comprehensive Annotated Dataset of Locked GitHub Issue Threads},
-    journal = {The 21st International Conference on Mining Software Repositories (MSR), Data Showcase Track},
+    journal = {The 21st MSR, Data Showcase Track},
     file = {incivility.pdf},
     abstract = {In the dynamic landscape of open source software (OSS) development, understanding and addressing incivility within issue discussions is crucial for fostering healthy and productive collaborations. This paper presents a curated dataset of 404 locked GitHub issue discussion threads and 5961 individual comments, collected from 213 OSS projects. We annotated the comments with various categories of incivility using Tone Bearing Discussion Features (TBDFs), and, for each issue thread, we annotated the triggers, targets, and consequences of incivility. We observed that Bitter frustration, Impatience, and Mocking are the most prevalent TBDFs exhibited in our dataset. The most common triggers, targets, and consequences of incivility include Failed use of tool/code or error messages, People, and Discontinued further discussion, respectively. This dataset can serve as a valuable resource for analyzing incivility in OSS and improving automated tools to detect and mitigate such behavior.},
 }
 
 @inproceedings{shyamal2024exploring,
-    author = {Shyamal Mishra, and Preetha Chatterjee},
+    author = {Shyamal Mishra, Preetha Chatterjee},
     year = {2024},
     title = {Exploring ChatGPT for Toxicity Detection in GitHub},
     journal = {The 46th International Conference on Software Engineering (ICSE), New Ideas and Emerging Results Track},
@@ -16,8 +16,16 @@
     abstract = {Fostering a collaborative and inclusive environment is crucial for  the sustained progress of open source development. However, the  prevalence of negative discourse, often manifested as toxic comments, poses signi!cant challenges to developer well-being and  productivity. To identify such negativity in project communications, especially within large projects, automated toxicity detection  models are necessary. To train these models e"ectively, we need  large software engineering-speci!c toxicity datasets. However, such  datasets are limited in availability and often exhibit imbalance (e.g.,  only 6 in 1000 GitHub issues are toxic) [1], posing challenges for  training e"ective toxicity detection models. To address this problem,  we explore a zero-shot LLM (ChatGPT) that is pre-trained on massive datasets but without being !ne-tuned speci!cally for the task  of detecting toxicity in software-related text. Our preliminary evaluation indicates that ChatGPT shows promise in detecting toxicity  in GitHub, and warrants further investigation. We experimented  with various prompts, including those designed for justifying model  outputs, thereby enhancing model interpretability and paving the  way for potential integration of ChatGPT-enabled toxicity detection  into developer communication channels.},
 }
 
+@inproceedings{bouzoubaa2023evolution,
+    author = {Layla Bouzoubaa, Ramtin Ehsani and Preetha Chatterjee and Rezvaneh Rezapour},
+    year = {2023},
+    title = {The Evolution of Substance Use Coverage in the Philadelphia Inquirer},
+    journal = {The 17th International AAAI Conference On Web And Social Media (ICWSM), Data Challenge},
+    file = {substance.pdf},
+    abstract = {The media’s representation of illicit substance use can lead to harmful stereotypes and stigmatization for individuals struggling with addiction, ultimately influencing public perception, policy, and public health outcomes. To explore how the discourse and coverage of illicit drug use changed over time, this study analyzes 157,476 articles published in the Philadelphia Inquirer over a decade. Specifically, the study focuses on articles that mentioned at least one commonly abused substance, resulting in a sample of 3,903 articles. Our analysis shows that cannabis and narcotics are the most frequently discussed classes of drugs. Hallucinogenic drugs are portrayed more positively than other categories, whereas narcotics are portrayed the most negatively. Our research aims to highlight the need for accurate and inclusive portrayals of substance use and addiction in the media.},
+}
 @inproceedings{imran2024shedding,
-    author = {Mia Mohammad Imran, Preetha Chatterjee, and Kostadin Damevski},
+    author = {Mia Mohammad Imran, Preetha Chatterjee and Kostadin Damevski},
     year = {2024},
     title = {Shedding Light on Software Engineering-specific Metaphors and Idioms},
     journal = {The 46th International Conference on Software Engineering (ICSE), Research Track},
@@ -25,17 +33,16 @@
     abstract = {Use of figurative language, such as metaphors and idioms, is common in our daily-life communications, and it can also be found in  Software Engineering (SE) channels, such as comments on GitHub.  Automatically interpreting figurative language is a challenging task,  even with modern Large Language Models (LLMs), as it often involves subtle nuances. This is particularly true in the SE domain,  where figurative language is frequently used to convey technical  concepts, often bearing developer affect (e.g., ‘spaghetti code’). Surprisingly, there is a lack of studies on how figurative language in SE  communications impacts the performance of automatic tools that  focus on understanding developer communications, e.g., bug prioritization, incivility detection. Furthermore, it is an open question to  what extent state-of-the-art LLMs interpret figurative expressions  in domain-specific communication such as software engineering. To  address this gap, we study the prevalence and impact of figurative  language in SE communication channels. This study contributes  to understanding the role of figurative language in SE, the potential of LLMs in interpreting them, and its impact on automated SE  communication analysis. Our results demonstrate the effectiveness  of fine-tuning LLMs with figurative language in SE and its potential impact on automated tasks that involve affect. We found that,  among three state-of-the-art LLMs, the best improved fine-tuned  versions have an average improvement of 6.66% on a GitHub emotion classification dataset, 7.07% on a GitHub incivility classification  dataset, and 3.71% on a Bugzilla bug report prioritization dataset.},
 }
 
-@inproceedings{bouzoubaa2023evolution,
-    author = {Layla Bouzoubaa, Ramtin Ehsani, Preetha Chatterjee, and Rezvaneh Rezapour},
-    year = {2023},
-    title = {The Evolution of Substance Use Coverage in the Philadelphia Inquirer},
-    journal = {The 17th International AAAI Conference On Web And Social Media (ICWSM), Data Challenge},
-    file = {substance.pdf},
-    abstract = {The media’s representation of illicit substance use can lead to harmful stereotypes and stigmatization for individuals struggling with addiction, ultimately influencing public perception, policy, and public health outcomes. To explore how the discourse and coverage of illicit drug use changed over time, this study analyzes 157,476 articles published in the Philadelphia Inquirer over a decade. Specifically, the study focuses on articles that mentioned at least one commonly abused substance, resulting in a sample of 3,903 articles. Our analysis shows that cannabis and narcotics are the most frequently discussed classes of drugs. Hallucinogenic drugs are portrayed more positively than other categories, whereas narcotics are portrayed the most negatively. Our research aims to highlight the need for accurate and inclusive portrayals of substance use and addiction in the media.},
+@inproceedings{imran2024uncover,
+    author = {Mia Mohammad Imran, Preetha Chatterjee and Kostadin Damevski},
+    year = {2024},
+    title = {Uncovering the Causes of Emotions in Software Developer Communication Using Zero-shot LLMs},
+    journal = {The 46th International Conference on Software Engineering (ICSE), Research Track},
+    file = {ICSE_24_Emotion_Cause.pdf},
+    abstract = {Understanding and identifying the causes behind developers’ emotions (e.g., Frustration caused by ‘delays in merging pull requests’) can be crucial towards finding solutions to problems and fostering collaboration in open-source communities. Effectively identifying such information in the high volume of communications across the different project channels, such as chats, emails, and issue comments, requires automated recognition of emotions and their causes. To enable this automation, large-scale software engineering-specific datasets that can be used to train accurate machine learning models are required. However, such datasets are expensive to create with the variety and informal nature of software projects’ communication channels.},
 }
-
 @inproceedings{Ehsani2023Exploring,
-    author = {Ramtin Ehsani and Rezvaneh Rezapour and Preetha Chatterjee},
+    author = {Ramtin Ehsani, Rezvaneh Rezapour and Preetha Chatterjee},
     year = {2023},
     title = {Exploring Moral Principles Exhibited in OSS: A Case Study on GitHub Heated Issues},
     journal = {The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Ideas, Visions and Reflections Track},
@@ -44,7 +51,7 @@
 }
 
 @inproceedings{sajadi2023towards,
-    author = {Amirali Sajadi, Kostadin Damevski, and Preetha Chatterjee},
+    author = {Amirali Sajadi, Kostadin Damevski and Preetha Chatterjee},
     year = {2023},
     title = {Towards Understanding Emotions in Informal Developer Interactions: A Gitter Chat Study},
     journal = {The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), Ideas, Visions and Reflections Track},
@@ -53,7 +60,7 @@
 }
 
 @inproceedings{sajadi2023interpersonal,
-    author = {Amirali Sajadi and Kostadin Damevski and Preetha Chatterjee},
+    author = {Amirali Sajadi, Kostadin Damevski and Preetha Chatterjee},
     year = {2023},
     title = {Interpersonal Trust in OSS: Exploring Dimensions of Trust in GitHub Pull Requests},
     journal = {The 45th International Conference on Software Engineering (ICSE), New Ideas and Emerging Results Track},
@@ -70,7 +77,7 @@
 }
 
 @inproceedings{damevski2022data,
-    author = {Kostadin Damevski and Mia Mohammad and Preetha Chatterjee and Yashasvi Jain},
+    author = {Kostadin Damevski, Mia Mohammad Imran and Preetha Chatterjee and Yashasvi Jain},
     year = {2022},
     title = {Data Augmentation for Improving Emotion Recognition in Software Engineering Communication},
     journal = {The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE), Research Track, Oct 2022.},
@@ -79,7 +86,7 @@
 }
 
 @inproceedings{subash2022disco,
-    author = {Keerthana Muthu Subash and Lakshmi Prasanna Kumar and Sri Lakshmi Vadlamani and Preetha Chatterjee and Olga Baysal},
+    author = {Keerthana Muthu Subash, Lakshmi Prasanna Kumar and Sri Lakshmi Vadlamani and Preetha Chatterjee and Olga Baysal},
     year = {2022},
     title = {DISCO: A Dataset of Discord Chat Conversations for Software Engineering Research},
     journal = {The 19th International Conference on Mining Software Repositories (MSR), Data Showcase Track, May 2022.},
@@ -88,7 +95,7 @@
 }
 
 @inproceedings{chatterjee2022automatic,
-    author = {Preetha Chatterjee},
+    author = {Preetha Chatterjee,},
     year = {2022},
     title = {Automatic Identification of Informative Code in Stack Overflow Posts},
     journal = {The 1st International Workshop on Natural Language-based Software Engineering (NLBSE), co-located with ICSE, May 2022.},
@@ -97,7 +104,7 @@
 }
 
 @inproceedings{chatterjee2021automatic,
-    author = {Preetha Chatterjee and Kostadin Damevski and Lori Pollock},
+    author = {Preetha Chatterjee, Kostadin Damevski and Lori Pollock},
     year = {2021},
     title = {Automatic Extraction of Opinion-based Q&A from Online Developer Chats},
     journal = {The 43rd International Conference on Software Engineering (ICSE), Technical Track, May 2021.},
@@ -106,7 +113,7 @@
 }
 
 @inproceedings{chatterjee2021automatically,
-    author = {Preetha Chatterjee and Kostadin Damevski and Nicholas A. Kraft and Lori Pollock},
+    author = {Preetha Chatterjee, Kostadin Damevski and Nicholas A. Kraft and Lori Pollock},
     year = {2021},
     title = {Automatically Identifying the Quality of Developer Chats for Post Hoc Use},
     journal = {Transactions on Software Engineering and Methodology (TOSEM)},
@@ -123,23 +130,16 @@
 }
 
 @inproceedings{chatterjee2020software,
-    author = {Preetha Chatterjee and Kostadin Damevski and Nicholas A. Kraft and Lori Pollock},
+    author = {Preetha Chatterjee, Kostadin Damevski and Nicholas A Kraft and Lori Pollock},
     year = {2020},
     title = {Software-related Slack Chats with Disentangled Conversations},
     journal = {The 17th International Conference on Mining Software Repositories (MSR), Data Showcase Track, Oct 2020. Seoul, South Korea},
     file = {Software-related Slack.pdf},
-    abstract = {More than ever, developers are participating in public chat communities to ask and answer software development questions. With over ten million daily active users, Slack is one of the most popular chat platforms, hosting many active channels focused on software development technologies, e.g., python, react. Prior studies have shown that public Slack chat transcripts contain valuable information, which could provide support for improving automatic software maintenance tools or help researchers understand developer struggles or concerns. In this paper, we present a dataset of software-related Q&A chat conversations, curated for two years from three open Slack communities (python, clojure, elm). Our dataset consists of 38,955 conversations, 437,893 utterances, contributed by 12,171 users. We also share the code for a customized machine-learning based algorithm that automatically extracts (or disentangles) conversations from the downloaded chat transcripts.},
-    links = {
-        Preprint = 'https://preethac.github.io/files/MSR_Data_20.pdf',
-        DOI = 'https://dl.acm.org/doi/10.1145/3379597.3387493',
-        Slides = 'https://www.slideshare.net/PreethaChatterjee1/softwarerelated-slack-chats-with-disentangled-conversations',
-        Manuscript = null,
-        Dataset = 'https://zenodo.org/record/3627124'
-    }
+    abstract = {More than ever, developers are participating in public chat communities to ask and answer software development questions. With over ten million daily active users, Slack is one of the most popular chat platforms, hosting many active channels focused on software development technologies, e.g., python, react. Prior studies have shown that public Slack chat transcripts contain valuable information, which could provide support for improving automatic software maintenance tools or help researchers understand developer struggles or concerns. In this paper, we present a dataset of software-related Q&A chat conversations, curated for two years from three open Slack communities (python, clojure, elm). Our dataset consists of 38,955 conversations, 437,893 utterances, contributed by 12,171 users. We also share the code for a customized machine-learning based algorithm that automatically extracts (or disentangles) conversations from the downloaded chat transcripts.}
 }
 
 @inproceedings{chatterjee2020extracting,
-    author = {Preetha Chatterjee},
+    author = {Preetha Chatterjee,},
     year = {2020},
     title = {Extracting Archival-Quality Information from Software-Related Chats},
     journal = {The 42nd International Conference on Software Engineering (ICSE), Doctoral Symposium Track, Oct 2020. Seoul, South Korea},
@@ -155,7 +155,7 @@
 }
 
 @inproceedings{chatterjee2020finding,
-    author = {Preetha Chatterjee and Minji Kong and Lori Pollock},
+    author = {Preetha Chatterjee, Minji Kong and Lori Pollock},
     year = {2020},
     title = {Finding Help with Programming Errors: An Exploratory Study of Novice Software Engineers’ Focus in Stack Overflow Posts},
     journal = {Journal of Systems and Software (JSS)},
@@ -174,7 +174,7 @@
 }
 
 @inproceedings{chatterjee2019exploratory,
-    author = {Preetha Chatterjee and Kostadin Damevski and Lori Pollock and Vinay Augustine and Nicholas A. Kraft},
+    author = {Preetha Chatterjee, Kostadin Damevski and Lori Pollock and Vinay Augustine and Nicholas A. Kraft},
     year = {2019},
     title = {Exploratory Study of Slack Q&A Chats as a Mining Source for Software Engineering Tools},
     journal = {The 16th International Conference on Mining Software Repositories (MSR), Research Track, May 2019. Montreal, Canada},
@@ -191,7 +191,7 @@
 }
 
 @inproceedings{chatterjee2017extracting,
-    author = {Preetha Chatterjee and Benjamin Gause and Hunter Hedinger and Lori Pollock},
+    author = {Preetha Chatterjee, Benjamin Gause and Hunter Hedinger and Lori Pollock},
     year = {2017},
     title = {Extracting Code Segments and Their Descriptions from Research Articles},
     journal = {The 14th International Conference on Mining Software Repositories (MSR), Research Track, May 2017. Buenos Aires, Argentina},
@@ -207,7 +207,7 @@
 }
 
 @inproceedings{chatterjee2017exploratory,
-    author = {Preetha Chatterjee and Manziba Akanda Nishi and Kostadin Damevski and Vinay Augustine and Lori Pollock and Nicholas A. Kraft},
+    author = {Preetha Chatterjee, Manziba Akanda Nishi and Kostadin Damevski and Vinay Augustine and Lori Pollock and Nicholas A. Kraft},
     year = {2017},
     title = {What Information about Code Snippets Is Available in Different Software-Related Documents? An Exploratory Study},
     address = {The 24th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER), Early Research Achievements Track, Feb 2017. Klagenfurt, Austria},
@@ -223,7 +223,7 @@
 }
 
 @inproceedings{chatterjee2017exploratory,
-    author = {Preetha Chatterjee, Tushar Sharma, Paul Ralph},
+    author = {Preetha Chatterjee, Tushar Sharma and Paul Ralph},
     year = {2022},
     title = {Empirical Standards for Repository Mining},
     journal = {The 19th International Conference on Mining Software Repositories (MSR), Tutorial, May 2022, May 2022.},
