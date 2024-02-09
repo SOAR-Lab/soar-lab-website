@@ -21,7 +21,14 @@
 - name: Sakshi Pathak
   photo: sakshi.jpg
   info: M.S. Student, Drexel University
-  background: Hello! I'm Sakshi, a computer science master's student at Drexel University. I joined the SOAR lab in December 2023. My passion lies in the world of software development, and specifically, my research interests revolve around software engineering and machine learning.
+  background: Sakshi is a computer science master's student at Drexel University who joined the SOAR lab in December 2023. Sakshi's passion lies in the world of software development, and specifically, revolve around software engineering and machine learning.
   email: sp3856@drexel.edu
   linkedin: http://www.linkedin.com/in/sakshi-pathak-775400104
   github: https://github.com/sakpathak
+
+- name: Mustafa Bookwala
+  photo: mustafa.png
+  info: B. Sc. Student, Drexel University
+  background: Mustafa is currently an undergraduate student majoring in Computer Science and minoring in Mathematics and Data Science. His research interests are primarily in Software Engineering, Data Analytics, and Machine Learning.
+  email: mmb479@drexel.edu
+  github: https://github.com/bookwalamustafa
