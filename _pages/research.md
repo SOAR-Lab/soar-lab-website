@@ -125,6 +125,8 @@ Digital libraries of computer science research articles can be a rich source for
 {% endfor %}
 </div>
 
+<div>
+</div>
 ## Research Funding
 
 <div class="row" style="margin-top: 20px;">
