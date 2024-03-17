@@ -121,10 +121,8 @@ Digital libraries of computer science research articles can be a rich source for
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" style="width:auto; max-height:120px"/>
 <h5><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 </div>
-
 </div>
 {% endfor %}
-
 </div>
 
 ## Research Funding
@@ -136,4 +134,7 @@ Digital libraries of computer science research articles can be a rich source for
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" style="width:auto; max-height:120px"/>
 <h5><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 <h5>Total Award Amount: $7,000</h5>
+</div>
+</div>
+{% endfor %}
 </div>
