@@ -129,7 +129,7 @@ Digital libraries of computer science research articles can be a rich source for
 
 <div class="row">
 {% for member in site.data.funding %}
-<div class="column">
+<div class="col-12">
 <div class="card">
 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" style="width:auto; max-height:120px"/>
 <h5><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
