@@ -126,3 +126,17 @@ Digital libraries of computer science research articles can be a rich source for
 {% endfor %}
 
 </div>
+
+## Research Funding
+<div class="jumbotron">
+    <div class="col-md-12 col-sm-12">
+        <div class="row">
+            <div class="col-md-2 col-sm-2">
+                <img src="drexel-logo.png" alt="Drexel University Logo">
+            </div>
+            <div class="col-md-10 col-sm-10">
+                <h4><strong>Faculty Summer Research Awards for Tenure/Tenure-Track Faculty, Drexel University</strong></h4>
+            </div>
+        </div>
+    </div>
+</div>
