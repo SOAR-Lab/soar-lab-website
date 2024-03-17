@@ -112,7 +112,7 @@ Digital libraries of computer science research articles can be a rich source for
 </div>
 </div>
 
-## Collaborators
+## Past and Present Collaborators
 
 <div class="row">
 {% for member in site.data.collaborators %}
