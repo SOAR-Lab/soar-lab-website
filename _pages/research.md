@@ -128,7 +128,8 @@ Digital libraries of computer science research articles can be a rich source for
 </div>
 
 ## Research Funding
-<div class="jumbotron">
+
+<div class="row">
     <div class="col-md-12 col-sm-12">
         <div class="row">
             <div class="col-md-2 col-sm-2">
