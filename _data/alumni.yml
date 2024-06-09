@@ -1,3 +1,17 @@
+- name: Giles Odigwe
+  photo: Giles.jpg
+  info: B. Sc. Student, Drexel University
+  background: Giles is a 4th-Year Computer and Software Engineering student at Drexel University with a minor in Software Engineering. His academic journey is deeply rooted in a passion for technology, especially in the realm of software engineering.
+  email: gso24@drexel.edu
+  linkedin: https://www.linkedin.com/in/giles-odigwe-525a44208/
+
+- name: Mustafa Bookwala
+  photo: mustafa.png
+  info: B. Sc. Student, Drexel University
+  background: Mustafa is currently an undergraduate student majoring in Computer Science and minoring in Mathematics and Data Science. His research interests are primarily in Software Engineering, Data Analytics, and Machine Learning.
+  email: mmb479@drexel.edu
+  github: https://github.com/bookwalamustafa
+
 - name: Shyamal Mishra
   photo: mishra.jpg
   info: M.Sc. Student, Drexel University
@@ -5,7 +19,7 @@
   email: sm4825@drexel.edu
   website: https://mishrashyamal.github.io/portfolio/
   linkedin: https://www.linkedin.com/in/mishrashyamal/
-  
+
 - name: Vanessa Martinez
   photo: vanessam.jpeg
   info: Undergraduate Student, Drexel University
@@ -27,6 +41,6 @@
 - name: Thomas Do
   photo: thomasd.jpeg
   info: Undergraduate Student, Drexel University
-  background: 
+  background:
   duration: In the lab 2015-18
   linkedin: https://www.linkedin.com/in/thomas-do-b471aa1b8/

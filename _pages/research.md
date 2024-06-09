@@ -76,9 +76,12 @@ body {
 </style>
 
 ## Research
-
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
+<h4>**Understanding and Improving the Use of Conversational LLMs in Software Engineering**</h4>
+Conversational LLMs (e.g., GPT, Gemini, Claude) have emerged as a pivotal resource for programming support, providing immediate assistance that enhances productivity and simplifies the learning process for developers. These models are particularly valued for allowing software developers to interact in natural language, supporting an interactive learning experience. Despite their popularity, conversational LLMs often omit crucial details or produce incorrect solutions, which are hard or time-consuming for developers to identify. We found several instances where these conversational LLMs suggest fabricated information (e.g., non-existent APIs) or omit warnings about potential security risks in their code suggestions. Our research aims to improve software quality and developer productivity by providing comprehensive support for developers using conversational LLMs. This involves creating a framework to auto-reformulate queries and assess the correctness and reliability of the generated information.
+<br><br>
+
 <h4>**Mining Emotions from Software Engineering Communication**</h4>
 Emotions can strongly impact activities that are collaborative in nature and require creativity and problem-solving skills, such as software development. Research has shown that positive emotions (e.g., Joy) are associated with increased productivity and job satisfaction in software engineering teams. On the other hand, negative emotions (e.g., Frustration) can cause developers to lose motivation and exhibit lower participation, ultimately leading to team attrition. In this project, we aim to mine emotions and affect in software related text towards improving collaboration and productivity in software projects.
 <br>

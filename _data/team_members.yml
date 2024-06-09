@@ -26,9 +26,16 @@
   linkedin: http://www.linkedin.com/in/sakshi-pathak-775400104
   github: https://github.com/sakpathak
 
-- name: Mustafa Bookwala
-  photo: mustafa.png
+- name: Binh Le
+  photo: binh.jpeg
   info: B. Sc. Student, Drexel University
-  background: Mustafa is currently an undergraduate student majoring in Computer Science and minoring in Mathematics and Data Science. His research interests are primarily in Software Engineering, Data Analytics, and Machine Learning.
-  email: mmb479@drexel.edu
-  github: https://github.com/bookwalamustafa
+  background: Binh is a Computer Science major and an aspiring Software Engineer. Binh’s primary interests are in utilizing Machine Learning and AI applications in Software Development for technological breakthroughs. Other than that, he is a content creator seeking to build things which inspire others to live out their best lives.
+  email: binhlequoc09@gmail.com
+  linkedin: https://www.linkedin.com/in/binhlee/
+  github: https://github.com/binhl3
+
+- name: Anh Nguyen
+  photo: Anh.jpeg
+  info: B. Sc. Student, Drexel University
+  background: Anh is a pre-junior majoring in Computer Science with a minor in Business Administration. He is extremely fascinated by how cutting-edge software and data analytics are rapidly shaping the business world. Outside of school, he spends time hiking in the mountains, exploring nature, or reading a novel.
+  email: adn56@drexel.edu
